@@ -1,0 +1,30 @@
+
+EN - Installation:
+    1. Unzip the contents of this archive .zip
+    2. Send all files to your remote server in /var/www/pterodactyl.
+    3. If prompted, overwrite existing files. Do not delete anything before sending the files.
+    4. Run the following commands on your machine in SSH:
+        ° $ >> cd /var/www/pterodactyl
+        ° $ >> php artisan migrate (at the confirmation message, write "yes")
+        ° $ >> php artisan cache:clear
+        ° $ >> php artisan view:clear
+    5. Go to /var/www/pterodactyl and open the ".env" file.
+        - Line 4: Modify like this: "APP_THEME=pure-ui" (for the light theme) OR "APP_THEME=pure-ui-dark" (for the dark theme)
+        - Then I invite you to read the file "READ ME - A LIRE.txt" which will give you more information.
+
+
+FR - Installation :
+    1. Décompressez le contenu de cette archive .zip
+    2. Envoyez tous les fichiers sur votre serveur distant dans /var/www/pterodactyl.
+    3. Si on vous le demande, écrasez les fichiers existants. Ne supprimez rien avant d'envoyez les fichiers.
+    4. Executez les commandes suivantes sur votre machine en SSH :
+        ° $ >> cd /var/www/pterodactyl
+        ° $ >> php artisan migrate (lors du message de confirmation, écrivez "yes")
+        ° $ >> php artisan cache:clear
+        ° $ >> php artisan view:clear
+    5. Rendez-vous dans /var/www/pterodactyl puis ouvrez le fichier ".env".
+        - Ligne 4 : Modifiez comme ceci : "APP_THEME=pure-ui" (pour le thème clair) OU "APP_THEME=pure-ui-dark" (pour le thème sombre)
+        - Ensuite je vous invite à lire le fichier "READ ME - A LIRE.txt" qui vous donnera plus d'informations.
+
+~ Cracked by ChocoladeBeer (NielsLeemans)
+Advertisement: www.vicunahosting.nl
